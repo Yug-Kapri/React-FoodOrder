@@ -1,0 +1,38 @@
+[
+    {
+        "items": [
+            {
+                "id": "m2",
+                "name": "Margherita Pizza",
+                "price": "12.99",
+                "description": "A classic pizza with fresh mozzarella, tomatoes, and basil on a thin and crispy crust.",
+                "image": "images/margherita-pizza.jpg",
+                "quantity": 2
+            },
+            {
+                "id": "m5",
+                "name": "Veggie Burger",
+                "price": "9.99",
+                "description": "A juicy veggie patty served on a whole grain bun with lettuce, tomato, and a tangy sauce.",
+                "image": "images/veggie-burger.jpg",
+                "quantity": 1
+            },
+            {
+                "id": "m12",
+                "name": "Pancake Stack",
+                "price": "8.99",
+                "description": "Fluffy pancakes stacked high, drizzled with maple syrup and topped with fresh berries.",
+                "image": "images/pancake-stack.jpg",
+                "quantity": 2
+            }
+        ],
+        "customer": {
+            "name": "amazon",
+            "email": "lorem.ipsum@example.com",
+            "street": "123",
+            "postal-code": "1456",
+            "city": "la"
+        },
+        "id": "29.288908608547715"
+    }
+]

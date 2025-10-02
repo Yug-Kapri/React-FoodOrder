@@ -5,7 +5,7 @@ import Error from "./Error.jsx";
 const requestConfig = {};
 
 export default function Meals() {
-    const { data: loadedMeals, isLoading, error } = useHttp('http://localhost:3000/meals', requestConfig, []);    
+    const { data: loadedMeals, isLoading, error } = useHttp('/.netlify/functions/meals', requestConfig, []);    
     
     if (isLoading) {
         return <p className="center">Fetching meals...</p>;

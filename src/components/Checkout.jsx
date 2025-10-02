@@ -20,7 +20,7 @@ export default function Checkout() {
     const cartCtx = useContext(CartContext);
     const userProgressCtx = useContext(UserProgressContext);
 
-    const { data, isLoading: isSending, error, sendRequest, clearData } = useHttp('http://localhost:3000/orders', requestConfig);
+    const { data, isLoading: isSending, error, sendRequest, clearData } = useHttp('/.netlify/functions/orders', requestConfig);
 
     const cartTotal = cartCtx.items.reduce((totalPrice, item) => totalPrice + item.quantity * item.price, 0);
 
